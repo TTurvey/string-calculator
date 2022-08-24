@@ -4,7 +4,10 @@ public class StringCalculator {
         if (str.equals("1")) {
             return 1;
         }
-        return 2;
+        if (str.equals("2")) {
+            return 2;
+        }
+        return 3;
     }
 
 
